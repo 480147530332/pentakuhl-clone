@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './assets/pages/Home'
 import Industries from './assets/pages/Industries'
-import Pentakuhl from './assets/pages/Pentakuhl'
+import Pentakuhl from '/src/assets/pages/Pentakuhl.jsx'
 import ScrollToTop from './assets/components/ScrollToTop'
 import Navbar from './assets/components/Navbar'
 import Footer from './assets/components/Footer'
