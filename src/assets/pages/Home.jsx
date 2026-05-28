@@ -1,5 +1,5 @@
 import Hero from '../components/Hero';
-// import ServicesSection from '../components/ServicesSection';
+import ServicesSection from '../components/ServicesSection';
 import WhyChooseUs from '../components/WhyChooseUs';
 import planeImg from "../images/plane.jpg";
 import "../../index.css";
@@ -50,7 +50,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* <ServicesSection/> */}
+            <ServicesSection/>
 
             <WhyChooseUs />
 
