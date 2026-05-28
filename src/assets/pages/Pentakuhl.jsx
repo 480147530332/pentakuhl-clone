@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import heroVideo from "../video/hero.mp4";
 import PentAbout from "../components/PentAbout";
 
-import SeriesGuide from "../components/SeriesGuide";
+import SeriesGuide from "../components/Seriesguide";
 import Faq from "../components/Faq";
 import Featuresticker from "../components/Featuresticker";
 import Cta from "../components/Cta";
