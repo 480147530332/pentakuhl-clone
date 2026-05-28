@@ -3728,3 +3728,45 @@ body {
 
 /* responsive  */
 
+/* Hero Section Styling */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+}
+
+.cta-btn {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(249, 115, 22, 0.3);
+  transition: all 0.3s ease;
+  padding: 16px 40px;
+  font-size: 1.125rem;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(249, 115, 22, 0.4);
+}
+
+@media (max-width: 640px) {
+  .cta-btn {
+    padding: 14px 32px;
+    font-size: 1.05rem;
+  }
+}
+
+video {
+  object-position: center;
+  min-height: 100vh;
+}
+
+/* Prevent layout issues */
+.services-section,
+.hero-section {
+  overflow-x: hidden;
+}
+
+/* res */

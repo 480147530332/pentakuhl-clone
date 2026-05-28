@@ -8,14 +8,16 @@ const About = () => {
           <p className="about-eyebrow">ABOUT</p>
           <h2 className="about-title">PENTA KUHL</h2>
         </div>
-        <div className="about-right">
-          <p className="about-text">
-            At <strong>Pentakuhl</strong>, we specialize in providing durable, effective packaging
-            solutions that maintain temperature <strong>stability</strong> during transit,{" "}
-            <strong>protecting</strong> your valuable products. Our innovative designs cater to
-            various industries, including pharmaceuticals, food, and biotechnology.
-          </p>
-        </div>
+       <div className="about-right">
+  <p className="about-text text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 max-w-prose">
+    At <strong className="text-gray-900">Pentakuhl</strong>, we specialize in providing 
+    durable, effective packaging solutions that maintain temperature 
+    <strong className="text-gray-900">stability</strong> during transit,{" "}
+    <strong className="text-gray-900">protecting</strong> your valuable products. 
+    Our innovative designs cater to various industries, including pharmaceuticals, 
+    food, and biotechnology.
+  </p>
+</div>
       </div>
 
       {/* Pelican BioThermal */}
