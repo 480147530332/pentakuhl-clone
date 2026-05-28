@@ -1,0 +1,60 @@
+.philosophy-section {
+  background: #4b5d6e;
+  padding: 120px 20px;
+}
+
+.philosophy-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.philosophy-title {
+  color: #ff6b1a;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.philosophy-text {
+  color: white;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+.philosophy-btn {
+  margin-top: 50px;
+  background: #ff6b1a;
+  color: white;
+  border: none;
+  padding: 18px 42px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.philosophy-btn:hover {
+  background: #e85d11;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .philosophy-section {
+    padding: 80px 24px;
+  }
+
+  .philosophy-title {
+    font-size: 38px;
+  }
+
+  .philosophy-text {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+}
